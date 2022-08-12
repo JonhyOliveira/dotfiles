@@ -1,7 +1,7 @@
 syntax on
-set tabstop=4
-filetype on
-set nu
 set ruler
+set number
 set mouse=a
-set list
+
+let g:user42='joaooliv'
+let g:mail42='joaooliv@student.42.fr'
