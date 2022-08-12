@@ -79,4 +79,7 @@ checkNrunft() { clear; norminette ft*; gcc -Wall -Wextra -Werror ft* && ./a.out 
 checkNrunftProgram() { clear; norminette ft*; gcc -Wall -Wextra -Werror main.c ft* && ./a.out }
 
 # git status but better (no untracked files)
-alias gstat=git status -uno
+alias gstat='git status -uno'
+
+# update shell with zshrc
+alias sh_update='source ~/.zshrc'
