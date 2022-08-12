@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/private/tmp/intra-uuid-26013f46-f013-4aa4-a223-bd1fa42fca5c-4303182-joaooliv/ex08'
+let g:netrw_dirhist_3='/Users/joaooliv/.vim'
+let g:netrw_dirhist_2='/Users/joaooliv/Documents/C00/ex01'
+let g:netrw_dirhist_1='/Users/joaooliv/Documents/C00/ex05'
