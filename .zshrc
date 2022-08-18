@@ -73,7 +73,7 @@ runftProgram() {
 }
 
 # runs norminette and compiles all files beggining with ft on the current directory 
-checkNrunft() { clear; norminette ft*; gcc -Wall -Wextra -Werror ft* && ./a.out }
+checkNrunft() { clear; norminette ft*; gcc -Wall -Wextra -Werror ft* && ./a.out $@ }
 
 # runs norminette and compiles all files beggining with ft and main.c on the current directory 
 checkNrunftProgram() { clear; norminette ft*; gcc -Wall -Wextra -Werror main.c ft* && ./a.out }
